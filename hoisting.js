@@ -14,18 +14,18 @@ var lyric = "maybe";
 
   var thisIsCrazy = function (){
     console.log("hey!!!")
-      thisIsCrazy();
+      thisIsCrazy;
   }
 
 
 function sayMyName() {
   // fix the code in here:
   var name = "Cricky";
+  function sayMy() {
+    var name = "Kristin"
+    console.log(name);
 
+  }
   sayMy();
 
-  function sayMy() {
-    console.log(name);
-    var name = "Kristin";
-  }
 }
